@@ -1,2 +1,24 @@
+# Исходники Git
 .git
-/node_modules
+.gitignore
+
+# Node.js зависимости (они будут установлены внутри контейнера)
+node_modules
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Vite и временные файлы
+dist
+.vite
+
+# Конфиги редакторов и IDE
+.vscode
+.idea
+
+# MacOS и системные файлы
+.DS_Store
+
+# Docker файл самого себя
+Dockerfile*
+docker-compose*
